@@ -1,3 +1,13 @@
+body {
+  background-color: #505050;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  text-shadow: black;
+}
+
 .App .Cards {
   display: flex;
   flex-wrap: wrap;

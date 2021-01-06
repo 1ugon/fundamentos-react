@@ -6,6 +6,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 
 import "./App.css";
+import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       </center>
 
       <div className="Cards">
-        <Card titulo="#01 - Primeiro Componente" color="#080">
+        <Card titulo="#01 - Primeiro Componente" color="green">
           <Primeiro />
         </Card>
 
@@ -36,6 +38,14 @@ function App() {
             <FamiliaMembro nome="Pedro" />
             <FamiliaMembro nome="Gustavo" />
           </Familia>
+        </Card>
+
+        <Card titulo="#05 - Repetição" color="purple">
+          <ListaAlunos />
+        </Card>
+
+        <Card titulo="#06 - Tabela de Produtos" color="red">
+          <TabelaProdutos />
         </Card>
       </div>
     </div>
