@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default (props) => {
-  const [valor, setValor] = useState("Inicial");
+  const [valor, setValor] = useState("Escreva Aqui");
 
   function quandoMudar(e) {
     setValor(e.target.value);

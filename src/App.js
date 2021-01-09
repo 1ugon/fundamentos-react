@@ -14,6 +14,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/Mega/Mega";
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
 
         <Card titulo="#11 - Contador" color="lightblue">
           <Contador numeroInicial={10} />
+        </Card>
+
+        <Card titulo="#12 - Desafio Mega" color="lightgreen">
+          <Mega />
         </Card>
       </div>
     </div>
